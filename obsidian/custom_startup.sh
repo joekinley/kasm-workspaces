@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -ex
-START_COMMAND="/opt/Obsidian/obsidian"
+START_COMMAND="/opt/Obsidian/obsidian --no-sandbox"
 PGREP="obsidian"
 export MAXIMIZE="true"
 export MAXIMIZE_NAME="Obsidian"
