@@ -7,6 +7,10 @@ This repository holds all my personally created and used Kasm workspaces that I 
 ### Obsidian
 
 A workspace for the obsidian app.
-To enable persistency in the vault, enable persistent_profiles in the Workspace configuration.
+To enable persistence in the vault, enable persistent_profiles in the Workspace configuration.
 
 ![Persistent Profiles](./persistent_profiles.png)
+
+### Slack
+
+A workspace for the slack desktop app.

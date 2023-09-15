@@ -11,5 +11,8 @@ set -ex
 # Login to dockerhub
 echo ${DOCKERHUB_TOKEN} | docker login -u ${DOCKERHUB_USERNAME} --password-stdin
 
-# Push our image
+# Push our obsidian image
 docker push ${DOCKERHUB_USERNAME}/obsidian-workspace:develop
+
+# Push our slack image
+docker push ${DOCKERHUB_USERNAME}/slack-workspace:develop
