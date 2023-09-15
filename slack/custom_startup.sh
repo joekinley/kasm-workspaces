@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -ex
-START_COMMAND="/usr/lib/slack/slack"
+START_COMMAND="/usr/lib/slack/slack --no-sandbox"
 PGREP="slack"
 export MAXIMIZE="true"
 export MAXIMIZE_NAME="Slack"
